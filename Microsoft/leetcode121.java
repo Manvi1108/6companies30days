@@ -1,8 +1,4 @@
-import java.util.*;
-import java.lang.*;
-
-public class leetcode121
-{
+public class leetcode121{
     public int maxProfit(int[] prices)
     {
         int n = prices.length;
@@ -15,5 +11,4 @@ public class leetcode121
         }
         return maxProfit;
     }
-
 }
